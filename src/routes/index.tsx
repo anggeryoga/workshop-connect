@@ -50,7 +50,7 @@ function Home() {
   const [activeService, setActiveService] = useState(0);
   const [openFaq, setOpenFaq] = useState<number | null>(null);
   return <main className="overflow-x-hidden">
-    <section id="atas" className="relative min-h-[650px] h-[80svh] md:h-[min(850px,92svh)] text-overlay-foreground md:min-h-[680px]">
+    <section id="atas" className="relative min-h-[640px] h-[78svh] md:h-[min(850px,92svh)] text-overlay-foreground md:min-h-[680px]">
       <img src={hero} alt="Ilustrasi suasana pengerjaan struktur container di workshop fabrikasi" width={1920} height={1088} className="absolute inset-0 h-full w-full object-cover" fetchPriority="high" />
       <div className="hero-shade absolute inset-0" />
       <header className="relative z-20 mx-auto flex max-w-[1600px] items-center justify-between gap-5 px-5 py-5 md:px-10 lg:px-16">
@@ -71,7 +71,7 @@ function Home() {
       <div className="absolute inset-x-0 bottom-0 z-10 border-t border-line-light bg-charcoal/35 backdrop-blur-sm"><div className="mx-auto grid max-w-[1600px] grid-cols-[1fr_auto] items-center gap-5 px-5 py-4 text-[10px] font-semibold uppercase tracking-[0.12em] md:grid-cols-[1fr_1fr_auto] md:px-10 lg:px-16"><span>01 / Dibuat dengan presisi</span><span className="hidden md:block">Workshop berbasis di Jepara, Jawa Tengah</span><a href="#tentang" className="flex items-center gap-2">Jelajahi <ArrowDown size={14} /></a></div></div>
     </section>
 
-    <section id="tentang" className="mx-auto max-w-[1600px] px-5 py-20 md:px-10 md:py-28 lg:px-16">
+    <section id="tentang" className="mx-auto max-w-[1600px] px-5 py-16 md:px-10 md:py-28 lg:px-16">
       <div className="grid gap-8 lg:grid-cols-[1.1fr_.9fr] lg:gap-20"><div><Eyebrow>Tentang kami</Eyebrow><h2 className="mt-8 max-w-[850px] font-display text-[clamp(2.5rem,5.5vw,6rem)] font-medium uppercase leading-[.98]">IDE BESAR.<br />DIBANGUN <span className="text-muted-foreground">NYATA.</span></h2></div><div className="flex items-end"><p className="max-w-[430px] text-sm leading-[1.9] text-muted-foreground md:text-base">Kami percaya bahwa setiap ide layak dikerjakan dengan cermat. Dari potongan pertama hingga sentuhan akhir, proses fabrikasi adalah tentang menyatukan fungsi, kekuatan, dan detail yang tepat.</p></div></div>
       <div className="mt-14 grid gap-3 md:grid-cols-[1.15fr_.85fr]"><div className="relative min-h-[360px] overflow-hidden bg-charcoal text-overlay-foreground md:min-h-[510px]"><img src={steel} alt="Ilustrasi perajin mengelas gerbang besi di workshop" loading="lazy" width={1200} height={1504} className="absolute inset-0 h-full w-full object-cover object-center" /><div className="image-shade absolute inset-0" /><div className="absolute bottom-6 left-6 right-6 flex items-end justify-between gap-4"><div><Eyebrow>Di balik setiap bentuk</Eyebrow><p className="mt-3 font-display text-2xl uppercase md:text-3xl">BUILT IN OUR WORKSHOP.</p></div><ArrowUpRight className="shrink-0" /></div></div><div className="flex min-h-[280px] flex-col justify-between bg-accent p-6 text-accent-foreground md:p-9"><div className="flex items-start justify-between"><span className="font-display text-xs font-bold uppercase">Cara kami bekerja</span><ArrowUpRight /></div><p className="max-w-[550px] font-display text-[clamp(2rem,3.6vw,4.1rem)] font-medium uppercase leading-[1.05]">DARI SKETSA, MATERIAL, HINGGA SESUATU YANG BERDIRI.</p><span className="text-xs font-semibold uppercase">Karya Kreasi Bersama — Jepara</span></div></div>
     </section>
