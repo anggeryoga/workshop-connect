@@ -10,6 +10,9 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default: "bg-primary text-primary-foreground shadow hover:bg-primary/90",
+        industrial: "rounded-full bg-accent text-accent-foreground hover:bg-accent/85 font-semibold shadow-none",
+        industrialOutline: "rounded-full border border-current bg-transparent text-inherit hover:bg-overlay-foreground/10 shadow-none",
+        industrialDark: "rounded-full bg-charcoal text-overlay-foreground hover:bg-charcoal/85 shadow-none",
         destructive: "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90",
         outline:
           "border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground",
