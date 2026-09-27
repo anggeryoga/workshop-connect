@@ -50,7 +50,7 @@ function Home() {
   const [activeService, setActiveService] = useState(0);
   const [openFaq, setOpenFaq] = useState<number | null>(null);
   return <main className="overflow-x-hidden">
-    <section id="atas" className="relative min-h-[720px] h-[min(850px,92svh)] text-overlay-foreground md:min-h-[680px]">
+    <section id="atas" className="relative min-h-[650px] h-[80svh] md:h-[min(850px,92svh)] text-overlay-foreground md:min-h-[680px]">
       <img src={hero} alt="Ilustrasi suasana pengerjaan struktur container di workshop fabrikasi" width={1920} height={1088} className="absolute inset-0 h-full w-full object-cover" fetchPriority="high" />
       <div className="hero-shade absolute inset-0" />
       <header className="relative z-20 mx-auto flex max-w-[1600px] items-center justify-between gap-5 px-5 py-5 md:px-10 lg:px-16">
