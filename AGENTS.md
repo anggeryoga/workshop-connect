@@ -8,3 +8,6 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Keep the workshop website as one editorial scrolling page at `/` with section anchors, because the supplied visual reference is a continuous single-page composition.
+- Treat generated workshop and project imagery as illustrative concepts, not documented client work, because no actual project photographs were provided.
